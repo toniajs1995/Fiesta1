@@ -51,15 +51,15 @@ public class prof_display extends AppCompatActivity {
                 public void onDataChange(DataSnapshot dataSnapshot) {
 
                     name = dataSnapshot.child("name").getValue().toString();
-                    String lic_no = dataSnapshot.child("license_no").getValue().toString();
-                    String add = dataSnapshot.child("address").getValue().toString();
-                    String loc = dataSnapshot.child("location").getValue().toString();
-                    String dis = dataSnapshot.child("district").getValue().toString();
-                    String cat = dataSnapshot.child("category").getValue().toString();
-                    String min_bud = dataSnapshot.child("mini_budget").getValue().toString();
-                    String max_bud = dataSnapshot.child("max_budget").getValue().toString();
-                    String email = dataSnapshot.child("email_id").getValue().toString();
-                    String phone = dataSnapshot.child("phone").getValue().toString();
+                     lic_no = dataSnapshot.child("licence_no").getValue().toString();
+                     add = dataSnapshot.child("address").getValue().toString();
+                     loc = dataSnapshot.child("location").getValue().toString();
+                     dis = dataSnapshot.child("district").getValue().toString();
+                     cat = dataSnapshot.child("category").getValue().toString();
+                     min_bud = dataSnapshot.child("min_budget").getValue().toString();
+                     max_bud = dataSnapshot.child("max_budget").getValue().toString();
+                     email = dataSnapshot.child("email_id").getValue().toString();
+                     phone = dataSnapshot.child("phone").getValue().toString();
                    // String event1 = dataSnapshot.child("event1").getValue().toString();
                    // String event2 = dataSnapshot.child("event2").getValue().toString();
 
