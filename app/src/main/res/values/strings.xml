@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fiesta1</string>
+    <array name="who">
+        <item>Client</item>
+        <item>Service Provider</item>
+    </array>
+    <string name="title_activity_server">server</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
